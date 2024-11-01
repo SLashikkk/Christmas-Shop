@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Allura", sans-serif;
+    --third-family: "SF Pro", sans-serif;
+  
+  --primary-color-red: #ff4646;
+  --primary-color-red10: rgba(255, 70, 70, 0.1);
+  --color-dark: #181c29;
+  --static-white: #fff;
+  --static-white40: rgba(255, 255, 255, 0.4);
+  --static-white20: rgba(255, 255, 255, 0.2);
+  --content-bg: #ecf3f8;
+  --tag-purple: #4361ff;
+  --tag-pink: #ff43f7;
+  --tag-green: #06a44f;
+}
