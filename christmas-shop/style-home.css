@@ -192,6 +192,14 @@ h1 {
   max-height: 528px;
 }
 
+#About img {
+  border-radius: 20px;
+  width: 100%;
+  height: 528px;
+  object-fit: cover;
+  transition: color 0.5s ease;
+}
+
 .block-content {
   max-width: 426px;
   max-height: 328px;
@@ -260,24 +268,29 @@ h2 {
   max-height: 200px;
 }
 
-.arrow-box{
-display: flex;
-justify-content: right;
-column-gap: 20px;
-padding-top: 20px;
+.arrow-box {
+  display: flex;
+  justify-content: right;
+  column-gap: 20px;
+  padding-top: 20px;
 }
 
-.arrow{
-border: 1px solid var(--static-white);
-border-radius: 20px;
-width: 56px;
-height: 56px;
-background: var(--primary-color-red);
+.arrow {
+  border: 1px solid var(--static-white);
+  border-radius: 20px;
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color-red);
+}
+
+#leftBtn {
+  border: 1px solid var(--static-white40);
 }
 
 .block-gifts {
   align-content: center;
   justify-items: center;
+  padding: 12px 0 20px 0;
 }
 
 .white {
@@ -287,19 +300,67 @@ background: var(--primary-color-red);
 .cards {
   max-width: 1276px;
   max-height: 342px;
+  display: flex;
+  column-gap: 12px;
 }
 
 .card {
-  border-radius: 20px;
-  padding: 20px;
   max-width: 310px;
   max-height: 342px;
-  background: var(--static-white);
+  background: #ecf3f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .img-card {
-  width: 310px;
-  height: 230px;
+  background: #ecf3f8;
+  width: 100%;
 }
+
+.info {
+  width: 310px;
+  height: 112px;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 20px 8px;
+}
+
+h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: var(--Dark, #181c29);
+  text-overflow: ellipsis;
+}
+
+h4 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.purple{
+  color: var(--Tag-Purple, #4361FF);
+}
+
+.green{
+  color: var(--Tag-Green, #06A44F);
+}
+
+.pink{
+  color: var(--Tag-Pink, #FF43F7);
+}
+
+
 @media (hover: hover) {
 }
