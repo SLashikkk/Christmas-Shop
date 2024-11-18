@@ -63,7 +63,7 @@ header {
 .logotip {
   display: flex;
   align-items: center;
-  padding: 8px 20px;
+  padding: 8px 22px;
 }
 
 a {
@@ -104,7 +104,7 @@ a {
 
 .nav-list a {
   display: block;
-  padding: 12px 20px;
+  padding: 12px 23px;
 }
 
 .section {
@@ -120,7 +120,6 @@ a {
   background-size: cover, cover;
   display: flex;
   justify-content: center;
-  padding: 114px 0 110px;
   border-radius: 20px 20px 0 0;
 }
 
@@ -138,6 +137,7 @@ a {
   letter-spacing: 0.05em;
   text-align: center;
   color: var(--static-white);
+  padding-bottom: 12px;
 }
 
 h1 {
@@ -149,7 +149,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   color: var(--static-white);
-  padding: 12px 0 12px 0;
+  padding: 0 0 12px 0;
 }
 
 .btn-form {
@@ -161,7 +161,7 @@ h1 {
 .btn {
   border-radius: 20px;
   padding: 20px 32px;
-  width: 240px;
+  width: 236px;
   height: 56px;
   background: var(--color-dark);
   font-family: var(--font-family);
@@ -175,6 +175,7 @@ h1 {
   display: block;
   align-items: center;
   border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -240,7 +241,7 @@ h2 {
   max-width: 1276px;
   max-height: 200px;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 21px;
 }
 
 .container-slider {
@@ -275,7 +276,15 @@ h2 {
   padding-top: 20px;
 }
 
-.arrow {
+.arrow-left {
+  border: 1px solid var(--static-white);
+  border-radius: 20px;
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color-red);
+}
+
+.arrow-right {
   border: 1px solid var(--static-white);
   border-radius: 20px;
   width: 56px;
@@ -287,10 +296,14 @@ h2 {
   border: 1px solid var(--static-white40);
 }
 
+#rightBtn{
+  cursor: pointer;
+}
+
 .block-gifts {
   align-content: center;
   justify-items: center;
-  padding: 12px 0 20px 0;
+  padding: 0 0 18px 0;
 }
 
 .cards {
@@ -309,6 +322,7 @@ h2 {
   align-items: center;
   border-radius: 20px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .img-card {
@@ -321,7 +335,11 @@ h2 {
   height: 112px;
   background-color: #fff;
   border-radius: 20px 20px 0 0;
-  padding: 20px 20px 8px;
+  padding: 20px 20px 22px;
+}
+
+.info-card{
+padding-top: 9px;
 }
 
 h3 {
@@ -361,13 +379,13 @@ h4 {
   color: var(--Tag-Pink, #ff43f7);
 }
 
-.dark{
-  color: var(--Dark, #181C29);
+.dark {
+  color: var(--Dark, #181c29);
 }
 
 #cta {
   background-image: url(./assets/img/bg-forest.png), var(--bg-snow);
-  min-height: 667px;
+  max-height: 667px;
   background-size: cover;
   border-radius: 0 0 20px 20px;
 }
@@ -377,7 +395,7 @@ h4 {
   max-width: 1276px;
   flex-direction: column;
   align-items: center;
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 .block-cta {
   display: flex;
@@ -389,7 +407,7 @@ h4 {
 }
 
 #cta .btn {
-  margin: 20px 0 16px 0;
+  margin: 18px 0 6px 0;
 }
 
 .timer {
@@ -398,7 +416,6 @@ h4 {
   border-radius: 20px;
   background: var(--Static-White-40, rgba(255, 255, 255, 0.4));
   padding: 8px 12px 12px 12px;
-  margin-top: 8px;
 }
 
 .block-timer {
@@ -442,15 +459,14 @@ h4 {
 }
 
 #footer-contact {
-  padding: 60px 8px;
+  padding: 60px 82px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   background: var(--Static-White, #fff);
-  column-gap: 12px;
-  row-gap: 60px;
-  max-height: 376px;
+  column-gap: 14px;
+  row-gap: 67px;
 }
 
 .block-contact {
@@ -460,34 +476,59 @@ h4 {
   border-radius: 20px;
   background: var(--Content-Background, #ecf3f8);
   flex-direction: column;
-  width: 377px;
+  width: 416px;
 }
 
-.img-footer{
+.img-footer {
   width: 80px;
   height: 80px;
 }
 
-.action-large{
+.action-large {
   font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 152%;
-letter-spacing: 3.84px;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 3.84px;
+  text-transform: uppercase;
+  padding-top: 14px;
 }
 
-#social img{
-padding-left: 12px;
+#footer-contact h3{
+padding-top: 12px;
 }
 
-.text-social{
+#social img {
+
+}
+.text-social {
   font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 148%;
-padding: 12px 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148%;
+  padding: 12px 0;
 }
 
 @media (hover: hover) {
+  a:hover {
+    color:#ff4646
+}
+
+.logotip:hover {
+  color: inherit
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #181c29
+}
+
+.nav-menu li:hover {
+  background-color: rgba(255, 70, 70, 0.1);
+  color: #ff4646
+}
+
+
+
 }
