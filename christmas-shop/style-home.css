@@ -498,15 +498,12 @@ h4 {
 padding-top: 12px;
 }
 
-#social img {
-
-}
 .text-social {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 148%;
-  padding: 12px 0;
+  padding: 11px 0;
 }
 
 @media (hover: hover) {
